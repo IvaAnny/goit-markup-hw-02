@@ -1,14 +1,34 @@
 body {font-family: Roboto, sans-serif;
-    background: #E5E5E5;
+    background: #FFFFFF;
+    color: #757575;
 } 
+ 
+
+
+
+
 .description {
     list-style: none;
 }
 .link { text-decoration: none;
+}
 
+.menu-item {font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.title {font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
 
-
-} 
 .logo-web { font-family: Raleway, sans-serif;
     font-weight: 700d;
     font-size: 26px;
