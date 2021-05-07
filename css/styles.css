@@ -1,3 +1,8 @@
+.description {
+    list-style: none;
+}
+.link { text-decoration: none;
+} 
 .logo-web { font-family: Raleway, sans-serif;
     font-style: 700;
     font-weight: bold;
@@ -6,4 +11,21 @@
     letter-spacing: 0.03em;
     color: #2196F3;    
   }
-  
+  .logo-studio {font-family: Raleway, sans-serif;
+    font-style: 700;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.button {font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
