@@ -1,4 +1,5 @@
 body {font-family: Roboto, sans-serif;
+    background: #E5E5E5;
 } 
 .description {
     list-style: none;
@@ -26,7 +27,10 @@ line-height: 1.87;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
+color: FFFFFF;
 }
 .menu-list:hover,
 .menu-list:focus { color: #2196F3;
 }
+.button:hover,
+.button:focus {
