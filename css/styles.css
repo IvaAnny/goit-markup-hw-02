@@ -1,10 +1,8 @@
-.logo-web{font-family: 'Raleway', sans-serif;
+.logo-web { font-family: Raleway, sans-serif;
     font-style: 700;
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
-    /* identical to box height */
-    
+    line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;}
-    
+    color: #2196F3;    
+  }
