@@ -13,14 +13,24 @@ body {font-family: Roboto, sans-serif;
 .link { text-decoration: none;
 }
 
-.menu-item {font-family: Roboto;
+.menu-item {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
 }
-.title {font-family: Roboto;
+
+.team {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
