@@ -11,9 +11,9 @@ body {font-family: Roboto, sans-serif;
 }
 .link { text-decoration: none;
 } 
-}
-.menu-list:hover,
-.menu-list:focus { color: var(--logo-color);
+
+.menu-item:hover,
+.menu-item:focus { color: var(--logo-color);
 }
 
 
@@ -91,7 +91,12 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-color);
 }  
-
+.signature { 
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 /*information section*/
 
 /* footer */
