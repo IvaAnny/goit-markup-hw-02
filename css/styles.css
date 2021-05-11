@@ -49,10 +49,15 @@ body {font-family: Roboto, sans-serif;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-
+.header-link:focus,
+.header-link:hover:{ color:var(--logo-color) ;} 
 
 
 /*title section*/
+.nav-link:focus,
+.nav-link:hover {
+    color:var(--logo-color) ;
+}
 .title-section{ background: var(--title-sektion-color);
 }
 
@@ -100,8 +105,8 @@ color: var(--adress-color);
 }
 .nav-button:hover,
 .nav-button:focus {
-    color: var ( --adress-color);
-    background: var (--logo-color);
+    color: var( --adress-color);
+    background: var(--logo-color);
  }
 
 .title {
