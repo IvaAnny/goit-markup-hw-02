@@ -48,14 +48,11 @@ body {font-family: Roboto, sans-serif;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
 }
+
 
 
 /*title section*/
-.navigation .nav-link:hover{ var (--logo-color);
-
-}
 .title-section{ background: var(--title-sektion-color);
 }
 
@@ -86,6 +83,14 @@ color: var(--adress-color);
 
 
 /*information section*/
+.title-portfolio
+{font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+
+}
 .nav-button {
     font-weight: 500;
     font-size: 16px;
@@ -93,7 +98,11 @@ color: var(--adress-color);
     letter-spacing: 0.03em;
     color: var(--title-color);
 }
-
+.nav-button:hover,
+.nav-button:focus {
+    color: var ( --adress-color);
+    background: var (--logo-color);
+ }
 
 .title {
     font-weight: bold;
