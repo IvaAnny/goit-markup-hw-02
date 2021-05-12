@@ -24,6 +24,7 @@ body {font-family: Roboto, sans-serif;
 
 
 /* heder */
+.lin {color: var(--logo-color);}
 .logo-web { font-family: var(--logo-font);
     font-weight: 700d;
     font-size: 26px;
@@ -54,6 +55,14 @@ body {font-family: Roboto, sans-serif;
 
 
 /*title section*/
+.nav-lin {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var (--logo-color);
+}
+
 .nav-link:focus,
 .nav-link:hover {
     color:var(--logo-color) ;
