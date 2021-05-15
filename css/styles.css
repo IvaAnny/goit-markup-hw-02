@@ -25,6 +25,9 @@ body {font-family: Roboto, sans-serif;
 }
 
 
+.img {
+    display: block;
+}
 /* heder */
 .lin {color: var(--logo-color);}
 .logo-web { font-family: var(--logo-font);
