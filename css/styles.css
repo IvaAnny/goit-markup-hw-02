@@ -25,10 +25,44 @@ body {font-family: Roboto, sans-serif;
 }
 
 
-.img {
+img {
     display: block;
 }
+p,
+h1,
+h2,
+h3 { margin-top: 0;
+margin-bottom: 0;
+}
+ul,ol {
+    margin-top: 0;
+margin-bottom: 0;
+padding-left :0;
+}
+
+.conteiner{
+    width: 1200;
+    padding-left : 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+}
+.web-link {display: block;    
+}
 /* heder */
+.web-link{ margin-right: 90px;
+}
+.menu-li .menu-item:not(:last-child) {margin-right: 50px;}
+}
+
+.header .conteiner {
+    justify-content: space-between;
+    display: flex; 
+align-items: center;}
+nav{display: flex;
+    align-items: center;}
+    .menu-list{ display: flex;
+        align-items: center;}
 .lin {color: var(--logo-color);}
 .logo-web { font-family: var(--logo-font);
     font-weight: 700d;
