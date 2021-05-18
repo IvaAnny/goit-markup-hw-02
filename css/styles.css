@@ -56,7 +56,8 @@ padding-left :0;
 }
 .menu-li .menu-item:not(:last-child) {margin-right: 50px;}
  
-.conteiner .menu-list{display: flex;}
+.conteiner .menu-list{display: flex;
+}
 .header .conteiner {
     min-height: 80px;
     justify-content: space-between;
@@ -163,22 +164,7 @@ color: var(--adress-color);
     color: var(--title-color);
 
 }
-.nav-button {
-    min-height: 38px;
-    top: 174px;
-    min-width: 73px;
-    left: 495px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
-    color: var(--title-color);
-}
-.nav-button:hover,
-.nav-button:focus {
-    color: var( --adress-color);
-    background: var(--logo-color);
- }
+
 
 .title {
     font-weight: bold;
@@ -221,14 +207,22 @@ color: var(--title-color);
 /*information section*/
 
 /* item-conteiner*/
-.item-conteiner{padding-top: 93px;padding-bottom: 93px;
-
+.item-conteiner{padding-top: 93px;padding-bottom: 93px;}
+    
+    .team-description{
+        display: flex;
+        margin-left: -30px;
+    margin-top: -30px;
+    }
+.title{margin-bottom: 60px;
 }
-.title{margin-bottom: 60px;}
 .team {margin-bottom: 10px;}
 .categories {margin-bottom: 10px;}
 
-
+.etem-list { flex-basis:calc( (100%-120px) /4 );
+    margin-left: 30px;
+    margin-top: 30px;}
+    
 /*item-conteiner*/
 
 
@@ -247,6 +241,15 @@ color: var(--title-color);
 .conteiner-work-examples{
     margin-bottom: 93px;
 }
+
+.item-list-description {display: flex;
+    margin-left: -30px;
+margin-top: -30px;
+}
+.item-list{ margin-left: 30px;
+margin-top: 30px;
+flex-basis:calc( (100%-90px) /3 );}
+
 
 
 
@@ -290,3 +293,37 @@ letter-spacing: 0.03em;
     line-height: 1.71;
     letter-spacing: 0.03em;}
 /* footer */
+
+
+
+
+/* portfolio*/
+.nav-button-description{display: flex;
+    margin: 0 auto;
+    }
+
+.nav-button { 
+    
+    min-height: 38px;
+    top: 174px;
+    min-width: 73px;
+    left: 495px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+.nav-button:hover,
+.nav-button:focus {
+    color: var( --adress-color);
+    background: var(--logo-color);
+ }
+
+ .description-portfolio{display: flex;
+    }
+.description-portfolio-link{margin-left: 30px;
+    margin-top: 30px;
+    flex-basis:calc( (100%-90px) /3 )}
+    
+ 
